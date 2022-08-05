@@ -21,7 +21,7 @@ void words_of_file(std::vector<std::string>& all_words) {
 
 void random_word(std::vector<std::string>& vec_words, std::string& word) {
     srand(time(0));
-    ord = vec_words[rand() % vec_words.size()];
+    word = vec_words[rand() % vec_words.size()];
 }
 
 void closed_word(std::vector<int>& c_letters, std::string& word) {
